@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Style the entire page */
+body {
+  font-family: Arial, sans-serif; /* Set a default font family */
+  line-height: 1.6; /* Space between lines of text for better readability */
+  background-color: #f4f4f4; /* Light grey background color */
+  padding: 20px; /* Add space around the content */
+}
+
+/* Header section styling */
+header {
+  text-align: center; /* Centers the content horizontally */
+  margin-bottom: 20px; /* Adds space below the header */
+}
+
+/* Style the logo in the header */
+#logo {
+  width: 100px; /* Set the width of the logo image */
+}
+
+/* Style for the main header (h1) */
+.main-header {
+  color: white; /* Set the text color to white */
+  background-color: #ff0000; /* Dark blue background color */
+  padding: 10px; /* Adds padding inside the header */
+}
+
+/* Navigation (menu) styling */
+nav ul {
+  list-style: none; /* Remove default bullet points from the list */
+  display: flex; /* Display list items side by side (horizontally) */
+  justify-content: center; /* Center the navigation menu */
+  margin-bottom: 20px; /* Add space below the menu */
+}
+
+/* Style each navigation item */
+nav ul li {
+  margin: 0 15px; /* Add space on both sides of each menu item */
+}
+
+/* Style links in the navigation */
+nav a {
+    color: rgb(255, 0, 0);
+  }
+  
+  nav a:hover {
+    color: rgb(255, 238, 0);
+  }
+  
+  nav a:visited {
+    color: rgb(0, 225, 255);
+  }
+  
+  /* Address div */
+  #address-info {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-left: 5px solid #ff0000;
+  }
+  
+ /* Section header (h2) styling */
+.sub-header {
+  color: #333; /* Dark grey text color */
+  background-color: #cccccc; /* Light grey background */
+  padding: 5px; /* Padding inside the header for better spacing */
+}
+
+/* Styling for each individual course listing */
+.course {
+  margin-bottom: 20px; /* Adds space below each course section */
+  padding: 10px; /* Adds space inside the course container */
+  background-color: #eeeeee; /* Light grey background for the course section */
+  border-left: 5px solid #003366; /* Add a dark blue border on the left side of each course */
+}
+
+/* Footer section styling */
+footer {
+  text-align: center; /* Center the text in the footer */
+  margin-top: 30px; /* Add space above the footer */
+  padding: 10px; /* Adds space inside the footer */
+  background-color: #003366; /* Dark blue background */
+  color: white; /* White text color */
+}
