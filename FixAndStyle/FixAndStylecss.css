@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Style the entire page */
+body {
+  font-family: Arial, sans-serif; /* Set a default font family */
+  line-height: 1.6; /* Space between lines of text for better readability */
+  background-color: #f4f4f4; /* Light grey background color */
+  padding: 20px; /* Add space around the content */
+
+}
+.margin {
+    margin-bottom: 20px; /* Add space above the footer */
+    margin-top: 30px; /* Add space above the footer */
+}
+/* Header section styling */
+header {
+  text-align: center; /* Centers the content horizontally */
+ 
+}
+nav ul {
+    
+    padding: 20px; /* Add space around the content */
+  }
+
+nav ol {
+   
+    padding: 20px; /* Add space around the content */
+  } 
+
+/* Style links in the navigation */
+nav a {
+    color: rgb(0, 255, 42);
+  }
+  
+  nav a:hover {
+    color: rgb(255, 238, 0);
+  }
+  
+  nav a:visited {
+    color: rgb(255, 0, 0);
+  }
+
+
+.first-header {
+    color: #ffffff; /* Dark grey text color */
+    background-color: #0095ff; /* Light grey background */
+    padding: 5px; /* Padding inside the header for better spacing */
+   
+    margin-bottom: 20px; /* Add space above the footer */
+   
+
+  }
+.regular {
+    color: black;
+    
+}
+.fathersDay {
+    color: #d0ff00; /* Dark grey text color */
+    background-color: #0d8107; /* Light grey background */
+    padding: 5px; /* Padding inside the header for better spacing */
+   
+    margin-bottom: 20px; /* Add space above the footer */
+   
+}
+.final-header {
+    color: #ff0000; /* Dark grey text color */
+    background-color: #ffe100; /* Light grey background */
+    padding: 5px; /* Padding inside the header for better spacing */
+    
+    margin-bottom: 20px; /* Add space above the footer */
+   
+}
+
+#specialid {
+    background-color: #ffb700;
+   
+  }
+#specialid2 {
+    background-color: #00ff00;
+
+  }
+#red {
+    color: #ff0000;
+}
+#blue {
+    color: #0095ff;
+}
+#yellow {
+    color: #ffff00;
+}
+/* Footer section styling */
+footer {
+  text-align: center; /* Center the text in the footer */
+  
+  padding: 10px; /* Adds space inside the footer */
+
+}
