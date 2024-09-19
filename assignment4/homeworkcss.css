@@ -1,0 +1,124 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the entire page */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(cat.jpg);
+  background-size: cover; /* Ensure the background image covers the page */
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the logo in the header */
+#logo {
+  width: 500px;
+}
+
+/* Style for the main header (h1) */
+.main-header {
+  color: white;
+  background-color: #ff0000;
+  padding: 10px;
+}
+
+/* Navigation (menu) styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style each navigation item */
+nav ul li {
+  margin-bottom: 20px;
+  padding: 10px; /* Add padding inside the box */
+  background-color: #eeeeeec4; /* Light grey background for the box */
+  margin: 0 15px;
+}
+
+/* Style links in the navigation */
+nav a {
+  color: rgb(255, 0, 0);
+}
+
+nav a:hover {
+  color: rgb(255, 238, 0);
+}
+
+nav a:visited {
+  color: rgb(0, 255, 21);
+}
+
+/* Address div */
+#address-info {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #eeeeee;
+  border-left: 5px solid #ff0000;
+}
+
+/* Section header (h2) styling */
+.sub-header {
+  color: #333;
+  background-color: #cccccc;
+  padding: 5px;
+}
+
+/* Styling for each individual course listing */
+.course {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #eeeeee;
+  border-left: 5px solid #003366;
+}
+
+/* Footer section styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ff0000;
+  color: white;
+}
+
+/* continued study */
+
+/* Center a specific paragraph */
+.center {
+  text-align: center;
+}
+
+/* Justify a specific paragraph */
+.justify {
+  text-align: justify;
+}
+
+/* Style all headers (h1, h2, etc.) to be orange, italic, and normal weight */
+h1, h2, h3, h4, h5, h6 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+/* Give images a black border with yellow padding */
+img {
+  border: 10px solid black;
+  padding: 10px;
+  background-color: yellow;
+}
