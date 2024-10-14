@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+    background-color: #8f8f8f;
+  }
+  
+  #wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+  }
+  
+
+  header {
+    background-color: rgb(92, 157, 255);
+    color: white;
+    padding: 1em;
+    grid-column: span 6;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  nav {
+    grid-column: span 6;
+    background-color: rgb(92, 157, 255);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+  nav li {
+    font-family: Helvetica, sans-serif;
+    width: 250px; 
+    margin: 15px; 
+  }
+  
+
+  nav a {
+    display: block;
+    background-color: rgb(92, 157, 255);
+    padding: 20px 0; 
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid rgb(15, 0, 153);
+   
+  }
+  
+
+  nav a:hover {
+    background-color: #004080; 
+    color: yellow; 
+  }
+
+  nav a:visited {
+    color: rgb(0, 225, 255);
+  }
+  main {
+    font-family: Georgia, serif;
+    text-align: justify; 
+    padding: 1em;
+    grid-column: span 2;
+    background-color: rgb(92, 157, 255);
+    color : white;
+  
+  }
+h2{
+    
+    font-family : Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1em;
+}
+
+  #address-info {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eeeeee;
+    border-left: 5px solid #ff0000;
+  }
+  
+  aside {
+    grid-column : span 4;
+    margin-right : 10px;
+    margin-bottom : 10px;
+  
+    font-family : Arial, Helvetica, sans-serif;
+    padding : 10px;
+    }
+    
+
+  .img {
+    float : left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width : 250px;
+   
+    }
+  footer {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    background-color: #ff0000;
+    grid-column: span 6;
+    text-align: center;
+    padding: 20px;
+  }
+  /* last page */
+  section{
+    
+    font-family: Verdana, sans-serif;
+  }
+  #wrapper2 {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+  }
+  
+  .profile {
+    grid-column: span 2; /* Keep profiles equally distributed */
+    padding: 10px;
+    border: 1px solid #000000;
+    margin: 0 10px; /* Add horizontal spacing */
+  }
+  .profile img {
+    width: 100%;
+    height: auto; /* Ensure image retains aspect ratio */
+    max-width: none; /* Remove fixed max-width */
+  }
+  .profile h2 {
+    text-align: center;
+
+    color: #07627e;
+  }
+  
+  .profile a {
+    color: red;
+    font-size: 1em;
+    text-decoration: none;
+  }
+  
+  .profile a:hover {
+    text-decoration: underline;
+  }
