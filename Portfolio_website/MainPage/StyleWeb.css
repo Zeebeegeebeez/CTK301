@@ -1,0 +1,89 @@
+
+body {
+  background-color: #12071F;
+  margin: 0 10%;
+  font-family:Verdana;
+  color:  white;
+  
+  padding-right: 30px;
+
+  padding-left: 80px;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+}
+
+nav{
+  grid-column: span 6;
+  color: white;
+  
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav a {
+  margin: 12px;
+  color:  white;
+  font-size: 180%;
+
+}
+
+nav p {
+  color:  white;
+  font-size: larger;
+  padding: 10px;
+}
+
+nav li {
+  padding: 10px;
+}
+
+/*used as a border line to seperate*/
+
+footer{
+  border-top: 1px solid white;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+h1{
+  border-top: 1px solid white;
+}
+
+h2 {
+  color: white;
+ 
+}
+
+/*Each webpage*/
+
+
+
+
+.Socials{
+  font-family: Helvetica, sans-serif;
+  grid-column: span 6;
+  margin: 15px; 
+}
+
+.Resource{
+  font-family: Helvetica, sans-serif;
+  grid-column: span 6;
+  margin: 15px; 
+}
+
+
+

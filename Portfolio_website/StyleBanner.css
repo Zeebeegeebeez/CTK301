@@ -1,0 +1,59 @@
+
+body {
+ background: url(./images/background2.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+}
+nav {
+  grid-column: span 6;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  background-color: #12071F;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+nav li {
+  font-family: Helvetica, sans-serif;
+  margin: 2em; 
+}
+
+
+nav a {
+  font-size: 2em;
+  color: white;
+  text-align: center; 
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+nav a:hover {
+  color: rgb(140, 0, 158); 
+ font-size: 2.5em;
+}
+
+
+
+/*used as a border line to seperate*/
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+
+
