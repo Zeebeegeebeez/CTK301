@@ -1,11 +1,9 @@
 
 body {
- background: url(./images/background2.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
+background-image: url(./images/Background2.jpg); 
 background-size: cover;
 }
+
 
 #wrapper {
   margin: 1em auto;
