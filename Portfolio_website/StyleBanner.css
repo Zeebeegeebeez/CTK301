@@ -12,10 +12,14 @@ background-size: cover;
   grid-template-columns: repeat(6, 1fr); 
 }
 nav {
+  font-family: "Truculenta", sans-serif;
+  font-weight: 500;
+  padding: 1em;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   grid-column: span 6;
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
-  background-color: #12071F;
+  display: flex; 
+  justify-content: center; 
 }
 
 nav ul {
