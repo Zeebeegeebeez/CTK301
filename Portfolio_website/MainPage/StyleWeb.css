@@ -1,6 +1,6 @@
  body {
   
-  background-image: url(images/Background2.jpg); 
+  background-image: url(images/wallpaper-8257343_1920.png); 
   background-size: cover;
     
 }
@@ -25,8 +25,10 @@ nav {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   grid-column: span 6;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 nav ul {
@@ -42,7 +44,7 @@ nav a {
   gap: 2em; 
   margin:  20px;
   color: rgb(255, 255, 255);
-
+  text-decoration: none; 
 }
 
 nav a:hover {
