@@ -1,6 +1,6 @@
 
 body {
-background-image: url(./images/Background2.jpg); 
+background-image: url(images/wallpaper-8257343_1920.png); 
 background-size: cover;
 }
 
@@ -10,41 +10,41 @@ background-size: cover;
   width: 960px;
   display: grid;
   grid-template-columns: repeat(6, 1fr); 
+
 }
+
 nav {
   font-family: "Truculenta", sans-serif;
   font-weight: 500;
   padding: 1em;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  background-color: #12071F;
   grid-column: span 6;
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
-
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-
+  justify-content: center; /* Center contents horizontally */
+  align-items: center; /* Center contents vertically */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+  width: 100%; /* Ensure it spans the nav container */
 }
+
 nav li {
-  margin: 0 2em; /* Adjust the spacing as needed */
+  margin: 0 2em; /* Keep consistent spacing */
 }
 
-nav {
-  grid-column: span 6;
-  border: 5px solid white;
-  background-color: #12071F;
-  padding: 20px; 
-  width: 80%;
-  margin: 0 auto;
-  border-radius: 10px; 
-}
 nav a {
   font-size: 2em;
   color: white;
   text-align: center; 
+  text-decoration: none; /* Ensure no underline on links */
   transition: background-color 1.0s, width 2.0s, color 2.0s;
 }
 nav a:hover {
